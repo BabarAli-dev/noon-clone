@@ -112,7 +112,7 @@ body {
   height: auto;
   color: #4a4a4a; */
 }
-@media screen and (max-width:500px)
+@media screen and (min-width:500px)
 {
     .mobile {
     display: flex;
@@ -121,7 +121,7 @@ body {
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    background-color: white;
+    background-color: #feee00;
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.4); /* Add the box-shadow property */
   }
 
